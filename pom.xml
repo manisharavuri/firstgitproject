@@ -4,7 +4,7 @@
 
 	<groupId>com.manisharavuri</groupId>
 	<artifactId>batch-sample</artifactId>
-    <version>1.0.1-MY-FIRST-APPLICATION-kc</version>
+    <version>1.0.1-MY-FIRST-APPLICATION</version>
     <packaging>mule-application</packaging>
 
 	<name>batch-sample</name>
