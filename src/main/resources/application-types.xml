@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="input" format="json">
+      <types:shape format="weave" example="examples/batchinput.json"><![CDATA[%dw 2.0
+
+type input = {|
+  empid: String, 
+  firstname: String
+|} {"example": "{\"empid\":\"12324\",\"firstname\":\"cagemini\"}"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+</types:mule>
